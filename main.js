@@ -2,7 +2,13 @@ const words = [
   { jp: "さくら", romaji: "sakura" },
   { jp: "くるま", romaji: "kuruma" },
   { jp: "やま", romaji: "yama" },
-  { jp: "かわ", romaji: "kawa" }
+  { jp: "かわ", romaji: "kawa" },
+  { jp: "にんげん", romaji: "ningen" },
+  { jp: "プール", romaji: "pu-ru" },
+  { jp: "りんご", romaji: "ringo" },
+  { jp: "かめ", romaji: "kame" },
+  { jp: "中川家", romaji: "nakagawake" },
+  { jp: "ハイドロポンプ", romaji: "haidoroponpu" }
 ];
 
 let currentWord = {};
