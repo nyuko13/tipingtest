@@ -23,7 +23,6 @@ function playSound() {
     console.warn("音の再生に失敗:", err);
   });
 }
-}
 
 function showNewWord() {
   currentWord = words[Math.floor(Math.random() * words.length)];
