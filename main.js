@@ -13,7 +13,10 @@ const soundEl = document.getElementById("type-sound");
 
 function playSound() {
   soundEl.currentTime = 0;
-  soundEl.play();
+  soundEl.play().catch(err => {
+    console.warn("音の再生に失敗:", err);
+  });
+}
 }
 
 function showNewWord() {
